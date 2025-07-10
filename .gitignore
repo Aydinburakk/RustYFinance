@@ -1,0 +1,14 @@
+# Rust derleme klasörü
+/target
+
+# Kişisel ayarlar
+**/*.rs.bk
+**/*.log
+
+# IDE dosyaları (VSCode, JetBrains falan kullanıyorsan)
+.vscode/
+.idea/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
