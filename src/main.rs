@@ -1,7 +1,7 @@
 use rustyfinance::download;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let frames = download("MAVI.IS", "2024-06-01", "2024-07-01", "1m")?;
+    let frames = download("MAVI.IS", "2024-06-01", "2024-07-01", "1d")?;
 
     for frame in frames {
         println!(
